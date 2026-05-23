@@ -1,0 +1,33 @@
+{
+  "mcpb_version": "0.1",
+  "name": "commerce-catalog-server",
+  "display_name": "Commerce Product Catalog",
+  "version": "1.0.0",
+  "description": "MCP server exposing a product catalog, keyword search, and checkout initiation for an e-commerce store.",
+  "author": {
+    "name": "Your Name",
+    "email": "you@example.com",
+    "url": "https://yourstore.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NewPlanetWW/mcp-commerce-starter"
+  },
+  "license": "MIT",
+  "tools": [
+    {
+      "name": "search_products",
+      "description": "Search the product catalog by keyword, optionally filtering by category and maximum price."
+    },
+    {
+      "name": "initiate_checkout",
+      "description": "Initiate a checkout session for a given product SKU and quantity. Returns a checkout URL."
+    }
+  ],
+  "keywords": ["e-commerce", "products", "catalog", "checkout", "commerce", "mcp", "agentic-commerce"],
+  "compatibility": {
+    "claude_desktop": ">=1.0.0",
+    "platforms": ["darwin", "win32", "linux"],
+    "python": ">=3.10"
+  }
+}
