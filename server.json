@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.newplanetww/mcp-commerce-starter",
+  "name": "io.github.NewPlanetWW/mcp-commerce-starter",
   "title": "MCP Commerce Server Starter",
   "description": "FastMCP commerce server starter: product catalog, search, and checkout. Deploy to Vercel in 5 min.",
   "version": "1.0.0",
