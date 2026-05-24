@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.newplanetww/mcp-commerce-starter",
+  "title": "MCP Commerce Server Starter",
+  "description": "Clone-and-deploy FastMCP commerce server. Exposes a product catalog as a browsable Resource plus search_products and initiate_checkout Tools. Live on Vercel in 5 minutes. MIT licensed.",
+  "version": "1.0.0",
+  "websiteUrl": "https://30daypivot.com/agentmall_spoke_mcp",
+  "repository": {
+    "url": "https://github.com/NewPlanetWW/mcp-commerce-starter",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "transportType": "streamable-http",
+      "url": "https://mcp-commerce-starter.vercel.app/mcp"
+    }
+  ]
+}
